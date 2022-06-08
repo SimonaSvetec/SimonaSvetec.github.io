@@ -30,16 +30,16 @@ var vel_objekta = 25;
 
 
 function preload() {
-  linija = loadImage("img/linija.png");
-  krug = loadImage("img/krug.png");
-  pravokutnik = loadImage("img/pravokutnik.png");
-  zvijezda = loadImage("img/zvijezda.png");
-  cvijet = loadImage("img/cvijet.png");
-  velicina = loadImage("img/plus-minus.png");
-  debljina = loadImage("img/debljina.png");
-  kamera = loadImage("img/kamera.png");
-  srce = loadImage("img/srce.png");
-  srce_ukras = loadImage("img/ukras.png");
+  linija = loadImage("linija.png");
+  krug = loadImage("krug.png");
+  pravokutnik = loadImage("pravokutnik.png");
+  zvijezda = loadImage("zvijezda.png");
+  cvijet = loadImage("cvijet.png");
+  velicina = loadImage("plus-minus.png");
+  debljina = loadImage("debljina.png");
+  kamera = loadImage("kamera.png");
+  srce = loadImage("srce.png");
+  srce_ukras = loadImage("ukras.png");
 }
 
 function setup() {
