@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Najveći problemi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap">
+  <link rel="shortcut icon" href="img/heart-crack-solid.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    $(document).ready(function() {
+      $(".zrak-idealna").click(function() {
+        $(".zrak").css({"background-image": "url(img/zrak2.jpg)"});
+      });
+      $(".zrak-stvarna").click(function() {
+        $(".zrak").css({"background-image": "url(img/zrak1.jpg)"});
+      });
+
+      $(".voda-idealna").click(function() {
+        $(".voda").css({"background-image": "url(img/voda2.jpg)"});
+      });
+      $(".voda-stvarna").click(function() {
+        $(".voda").css({"background-image": "url(img/voda1.jpg)"});
+      });
+
+      $(".populacija-idealna").click(function() {
+        $(".populacija").css({"background-image": "url(img/populacija2.jpg)"});
+      });
+      $(".populacija-stvarna").click(function() {
+        $(".populacija").css({"background-image": "url(img/populacija1.jpg)"});
+      });
+
+      $(".zagrijavanje-idealna").click(function() {
+        $(".zagrijavanje").css({"background-image": "url(img/zagrijavanje2.jpg)"});
+      });
+      $(".zagrijavanje-stvarna").click(function() {
+        $(".zagrijavanje").css({"background-image": "url(img/zagrijavanje1.jpg)"});
+      });
+
+      $(".otpad-idealna").click(function() {
+        $(".otpad").css({"background-image": "url(img/otpad2.jpg)"});
+      });
+      $(".otpad-stvarna").click(function() {
+        $(".otpad").css({"background-image": "url(img/otpad1.jpg)"});
+      });
+
+      $(".raznolikost-idealna").click(function() {
+        $(".raznolikost").css({"background-image": "url(img/raznolikost2.jpg)"});
+      });
+      $(".raznolikost-stvarna").click(function() {
+        $(".raznolikost").css({"background-image": "url(img/raznolikost1.jpg)"});
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="d-flex flex-column">
+      <div class="header mb-5">            
+          <div class="d-flex align-items-center container">
+            <a href="index.html" class="btn btn-outline-secondary me-3">Početna</a>
+            <a href="problemi.html" class="btn btn-outline-secondary">Najveći problemi</a>
+          </div>
+      </div>
+
+      <div class="mt-auto mb-auto">
+          <div class="main mt-5 mb-5">
+            <h1 class="mb-3">Najveći problemi</h1>
+            <i class="fa-solid fa-heart-crack mb-3"></i>
+            <p class="mb-5 px-3">
+              Kako bi proces održivosti planete imao trajan uspjeh potrebno je da se svaki pojedinac osvijesti o pitanju održivog razvoja i odgovornosti za životnu sredinu. Upravo fotografije koje slijede u nastavku, a u kojima su navedeni i objašnjeni glavni i aktualni problemi u zaštiti okoliša, za cilj imaju potaknuti Vas na razmišljanje o suživotu s drugim ljudima s kojima dijelite dom, no i na dolazak budućih generacija te stanje kakvo im se ostavlja. 
+            </p>
+            <a href="#prva_fotografija" class="btn btn-primary mb-5">Prikaži najveće probleme</a>
+        </div>
+      </div>
+
+      <!-- Onečišćenje zraka -->
+      <div class="container" id="prva_fotografija">
+        <div class="row problemi align-items-center">
+          <div class="col-12 col-md-6 zrak">
+            <!-- onečišćenje zraka bg slika -->
+          </div>
+          <div class="col-12 col-md-6">
+            <h1 class="mb-5 px-3">Onečišćenje zraka</h1>
+            <p class="mb-5 px-3">
+              Primarni izvor zagađenja zraka je prizemni ozon koji se javlja kada se dušikovi oksidi pomiješaju s hlapljivim organskim spojevima. Ta se kemijska reakcija događa pri isparavanju benzina, ispušnih plinova automobila, u velikim skladištima kemijskih sredstava i pri emisijama tvorničkih ili komunalnih postrojenja pa za povećanje kvalitete zraka počnite raditi ovo:
+            </p>
+            <ul class="list-group list-group-flush mb-5">
+              <li class="list-group-item"><b>1</b> Smanjite upotrebu automobila koji uzrokuje porast sumpornih dioksida.</li>
+              <li class="list-group-item"><b>2</b> Sadite više biljaka jer su ključne za uklanjanje ugljičnog monoksida.</li>
+              <li class="list-group-item"><b>3</b> Odlučite se za solarnu energiju koja je bolja od električne energije.</li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary ms-3 zrak-idealna">Idealna situacija</button>
+            <button type="button" class="btn btn-outline-secondary zrak-stvarna">Stvarna situacija</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Onečišćenje vode -->
+      <div class="container">
+        <div class="row problemi align-items-center">
+          <div class="col-12 col-md-6">
+            <h1 class="mb-5 px-3">Onečišćenje vode</h1>
+            <p class="mb-5 px-3">
+              Aktivnosti poput ribolova, brodarstva, turizma te vađenja nafte i plina u najvećoj mjeri utječu na zagađenje mora, oceana, jezera i rijeka. Smeće je prisutno u svim ekosustavima voda stajačica i tekućica gdje se otpad nakuplja na obalama, dnu voda ili na površini ako ne potone. Kako bi spriječili daljne zagađenje dragocjenog resursa neophodnog za život možete uraditi ovo:
+            </p>
+            <ul class="list-group list-group-flush mb-5">
+              <li class="list-group-item"><b>1</b> Zatvarajte vodu na slavini, a vodu puštajte samo prilikom ispiranja.</li>
+              <li class="list-group-item"><b>2</b> Rublje perite u punoj perilici za rublje jer se time štedi voda.</li>
+              <li class="list-group-item"><b>3</b> Prilikom čišćenja koristite kemikalije koje su manje štetne za okoliš.</li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary ms-3 voda-idealna">Idealna situacija</button>
+            <button type="button" class="btn btn-outline-secondary voda-stvarna">Stvarna situacija</button>
+          </div>
+          <div class="col-12 col-md-6 voda">
+            <!-- onečišćenje vode bg slika -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Prekomjerna populacija -->
+      <div class="container">
+        <div class="row problemi align-items-center">
+          <div class="col-12 col-md-6 populacija">
+            <!-- prekomjerna populacija bg slika -->
+          </div>
+          <div class="col-12 col-md-6">
+            <h1 class="mb-5 px-3">Prekomjerna populacija</h1>
+            <p class="mb-5 px-3">
+              Prekomjerna populacija uzrokuje neželjene pojave koje se odnose na kvalitetu života ljudi i na okoliš u smislu prekomjernog iskorištavanja prirodnih resursa. Neke od bitnijih posljedica su porast siromaštva, nastanak gladi, povećanje nejednakosti, onečišćenje okruženja, globalno zatopljenje kao i migracija iz siromašnih zemalja u one bogatije. Potrebno je pomoći stanovnicima u slabije razvijenim zemljama gdje je taj problem najviše izražen da imaju sljedeće:
+            </p>
+            <ul class="list-group list-group-flush mb-5">
+              <li class="list-group-item"><b>1</b> Pristup osnovnom obrazovanju i zdravstvu za djecu i starije.</li>
+              <li class="list-group-item"><b>2</b> Poboljšani i ravnopravni status žena u društvu.</li>
+              <li class="list-group-item"><b>3</b> Mogućnost i edukacija vezana za planiranje obitelji.</li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary ms-3 populacija-idealna">Idealna situacija</button>
+            <button type="button" class="btn btn-outline-secondary populacija-stvarna">Stvarna situacija</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Globalno zagrijavanje -->
+      <div class="container">
+        <div class="row problemi align-items-center">
+          <div class="col-12 col-md-6">
+            <h1 class="mb-5 px-3">Globalno zagrijavanje</h1>
+            <p class="mb-5 px-3">
+              Izgaranje fosilnih goriva te aktivnosti čovjeka poput krčenja šuma i uzgoja stoke u sve većoj mjeri utječu na klimu i temperaturu Zemlje. Upravo se tim procesima oslobađaju velike količine stakleničkih plinova, koji se pridružuju onima koji prirodno postoje u atmosferi, što rezultira pojačanom efektu staklenika i zagrijavanju na globalnoj razini, no da bi temperatura prestala rasti uradite navedeno:
+            </p>
+            <ul class="list-group list-group-flush mb-5">
+              <li class="list-group-item"><b>1</b> Smanjite, koristite ponovo i reciklirajte proizvode kada je to moguće.</li>
+              <li class="list-group-item"><b>2</b> Manje koristite sustave grijanja i hlađenja postavljanjem izolacije.</li>
+              <li class="list-group-item"><b>3</b> Kad god je to praktično, zamijenite običnu žarulju LED žaruljom.</li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary ms-3 zagrijavanje-idealna">Idealna situacija</button>
+            <button type="button" class="btn btn-outline-secondary zagrijavanje-stvarna">Stvarna situacija</button>
+          </div>
+          <div class="col-12 col-md-6 zagrijavanje">
+            <!-- globalno zagrijavanje bg slika -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Loše upravljanje otpadom -->
+      <div class="container">
+        <div class="row problemi align-items-center">
+          <div class="col-12 col-md-6 otpad">
+            <!-- loše upravljanje otpadom bg slika -->
+          </div>
+          <div class="col-12 col-md-6">
+            <h1 class="mb-5 px-3">Loše upravljanje otpadom</h1>
+            <p class="mb-5 px-3">
+              Gospodarenje otpadom mora se izvršavati tako da se ne dovodi u opasnost ljudsko zdravlje i bez uporabe postupaka koji bi mogli štetiti okolišu, a posebice kako bi se izbjegle ove pojave: onečišćenja mora, voda, tla i zraka, pojava buke, pojava neugodnih mirisa, ugrožavanje biljnog i životinjskog svijeta, nastajanje eksplozije ili požara. Stoga ciljevi gospodarenja otpada moraju biti sljedeći:
+            </p>
+            <ul class="list-group list-group-flush mb-5">
+              <li class="list-group-item"><b>1</b> Izbjegavanje i smanjivanje nastajanja otpada.</li>
+              <li class="list-group-item"><b>2</b> Zbrinjavanje otpada na način koji je zakonom propisan.</li>
+              <li class="list-group-item"><b>3</b> Sanacija  i nadzor otpadom onečišćenog okoliša.</li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary ms-3 otpad-idealna">Idealna situacija</button>
+            <button type="button" class="btn btn-outline-secondary otpad-stvarna">Stvarna situacija</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gubitak biloške raznolikosti -->
+      <div class="container">
+        <div class="row problemi align-items-center">
+          <div class="col-12 col-md-6">
+            <h1 class="mb-5 px-3">Gubitak biološke raznolikosti</h1>
+            <p class="mb-5 px-3">
+              Raznolikost živih bića zadnjih godina smanjuje se rapidnom brzinom i to najviše zbog ljudskih aktivnosti, poput prenamjene zemljišta, zagađenja i klimatskih promjena. Bioraznolikost osigurava čisti zrak, svježu vodu, kvalitetno tlo i oprašivanje usjeva te pomaže u borbi protiv klimatskih promjena. Zastupnici Europskog parlamenta uvidjeli su ozbiljnost problema pa su podržali ovo:
+            </p>
+            <ul class="list-group list-group-flush mb-5">
+              <li class="list-group-item"><b>1</b> Zaštita najmanje 30% morskih i kopnenih područja.</li>
+              <li class="list-group-item"><b>2</b> Potreba da 10% oceana i kopna ostane u osnovi netaknuto.</li>
+              <li class="list-group-item"><b>3</b> Potreba za povećanjem broja insekata oprašivača.</li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary ms-3 raznolikost-idealna">Idealna situacija</button>
+            <button type="button" class="btn btn-outline-secondary raznolikost-stvarna">Stvarna situacija</button>
+          </div>
+          <div class="col-12 col-md-6 raznolikost">
+            <!-- gubitak biloške raznolikosti bg slika -->
+          </div>
+        </div>
+      </div>
+
+      <div class="footer d-flex align-items-center">            
+        <ul>
+            <li>Simona Svetec</li>
+            <li>|</li>
+            <li>Sveučilište Sjever</li>
+        </ul>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
