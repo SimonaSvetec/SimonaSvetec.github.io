@@ -86,22 +86,22 @@ body {
     background-size: cover; 
 }
 .zrak {
-    background-image: url(img/zrak1.jpg); 
+    background-image: url(zrak1.jpg); 
 }
 .voda {
-    background-image: url(img/voda1.jpg); 
+    background-image: url(voda1.jpg); 
 }
 .populacija {
-    background-image: url(img/populacija1.jpg); 
+    background-image: url(populacija1.jpg); 
 }
 .zagrijavanje {
-    background-image: url(img/zagrijavanje1.jpg); 
+    background-image: url(zagrijavanje1.jpg); 
 }
 .otpad {
-    background-image: url(img/otpad1.jpg); 
+    background-image: url(otpad1.jpg); 
 }
 .raznolikost {
-    background-image: url(img/raznolikost1.jpg); 
+    background-image: url(raznolikost1.jpg); 
 }
 /* Lists */
 .list-group-item {
